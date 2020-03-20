@@ -1,4 +1,4 @@
-Who should read this document?
+За кога е предназначен този документ?
 ==============================
 
-Any developer building applications which run as a service.  Ops engineers who deploy or manage such applications.
+Всеки разработчик, който работи по приложения, които вървят като услуга. Ops инжинери, които поддържат или управляват такива приложения.

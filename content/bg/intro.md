@@ -1,12 +1,12 @@
-Introduction
+Въведение
 ============
 
-In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.  The twelve-factor app is a methodology for building software-as-a-service apps that:
+В наши дни софтуера бива предимно достъпен като услуга наречена *уеб приложение* (web app) или *софтуер като услуга* (SaaS).  Дванадесетте фактора е методология за построяване на SaaS-тип приложения, които:
 
-* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;
-* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;
-* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;
-* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;
-* And can **scale up** without significant changes to tooling, architecture, or development practices.
+* Използват **декларативни** формати за конфигуриране на инструменти за автоматизация, за да намалят времето и цената на присъединяване на нови разработчици към проекта;
+* Имат **съгласуване** с прилежащата операционна система, предоставящи **максимална преносимост** между средите за изпълнение;
+* Подходящи за **deployment** върху съвременни **облачни платформи**, оставяйки излишна нуждата от сървърна и системна администрация;
+* **Минимизират вариациите** между дев и production средите, позволявайки **непрекъсната интеграция** (CI) за максимална гъвкавост;
+* И могат да се **мащабират** без значителни промени в инструментите, архитектурата или установените практики на разработване.
 
-The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
+Методологията на дванадесетте фактора може да се приложи върху всякакви приложения, без ограничение към програмния език използван за разработването им или услугите които използват (бази от данни, диспечери на съобщения, кеш-памети и т.н.)
