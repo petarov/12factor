@@ -1,38 +1,38 @@
-The Twelve Factors
+Дванадесетте фактора
 ==================
 
-## [I. Codebase](./codebase)
-### One codebase tracked in revision control, many deploys
+## [I. Кодова база](./codebase)
+### Една кодова база следена от софтуер за управление на версиите, много разгръщания (deployments)
 
-## [II. Dependencies](./dependencies)
-### Explicitly declare and isolate dependencies
+## [II. Зависимости](./dependencies)
+### Изрично деклариране и изолиране на зависимостите
 
-## [III. Config](./config)
-### Store config in the environment
+## [III. Конфигурация](./config)
+### Съхраняване на конфигурацията в работната среда
 
-## [IV. Backing services](./backing-services)
-### Treat backing services as attached resources
+## [IV. Поддържащи услуги](./backing-services)
+### Третиране на поддържащите услуги (backing services) като прикачени ресурси
 
-## [V. Build, release, run](./build-release-run)
-### Strictly separate build and run stages
+## [V. Построяване, издаване, запуск](./build-release-run)
+### Стриктно разделяне на етапите на построяване и запуск
 
-## [VI. Processes](./processes)
-### Execute the app as one or more stateless processes
+## [VI. Процеси](./processes)
+### Изпълняване на приложението като един или повече безрежимни (stateless) процеси
 
-## [VII. Port binding](./port-binding)
-### Export services via port binding
+## [VII. Вързване на портове](./port-binding)
+### Изнасяне на услуги чрез вързване на портове (port binding)
 
-## [VIII. Concurrency](./concurrency)
-### Scale out via the process model
+## [VIII. Конкурентност](./concurrency)
+### Мащабиране базирано на процеси
 
-## [IX. Disposability](./disposability)
-### Maximize robustness with fast startup and graceful shutdown
+## [IX. Разполагаемост](./disposability)
+###  Увеличаване на устойчивостта чрез бързо стартиране и елегантно изключване
 
-## [X. Dev/prod parity](./dev-prod-parity)
-### Keep development, staging, and production as similar as possible
+## [X. Паритет на работните среди](./dev-prod-parity)
+### Поддържане на дев, междинна (staging) и продуктивна (production) среди във възможно най-съвместимо състояние
 
-## [XI. Logs](./logs)
-### Treat logs as event streams
+## [XI. Логове](./logs)
+### Третиране на логовете като потоци от събития
 
-## [XII. Admin processes](./admin-processes)
-### Run admin/management tasks as one-off processes
+## [XII. Административни процеси](./admin-processes)
+### Изпълняване на админ/управляващи задачи като еднократни процеси
